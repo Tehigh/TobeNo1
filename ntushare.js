@@ -3,16 +3,16 @@ const $ = new Env('youthshare');
 let md5 = require('md5-node');
 let nowTime;
 let wxck;
-let articles = ["",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-""]
+let articles = ["https://mp.weixin.qq.com/s/6nlHlcnaOJNsyzQkWVwYQA",
+"https://mp.weixin.qq.com/s/6nlHlcnaOJNsyzQkWVwYQA",
+"https://mp.weixin.qq.com/s/6nlHlcnaOJNsyzQkWVwYQA",
+"https://mp.weixin.qq.com/s/6nlHlcnaOJNsyzQkWVwYQA",
+"https://mp.weixin.qq.com/s/6nlHlcnaOJNsyzQkWVwYQA",
+"https://mp.weixin.qq.com/s/6nlHlcnaOJNsyzQkWVwYQA",
+"https://mp.weixin.qq.com/s/6nlHlcnaOJNsyzQkWVwYQA",
+"https://mp.weixin.qq.com/s/6nlHlcnaOJNsyzQkWVwYQA",
+"https://mp.weixin.qq.com/s/6nlHlcnaOJNsyzQkWVwYQA",
+"https://mp.weixin.qq.com/s/6nlHlcnaOJNsyzQkWVwYQA"]
 
 let encodearticles;
 
